@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muni Charan Laisetty - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .me{
+            height:5cm;
+            display:block;
+            margin-right: auto;
+            margin-right: 0%;
+            width: 15cap;
+            border:gold
+            
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #000000 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            margin-bottom: 0.3rem;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 2rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            color: #fc0000;
+            font-size: 1.3rem;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .job-title {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+
+        ul {
+            margin-left: 1.5rem;
+            margin-top: 0.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .skills-list li {
+            background-color: #667eea;
+            color: rgb(4, 4, 4);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 1rem;
+        }
+
+        .education-info {
+            margin-top: 0.5rem;
+        }
+
+        .education-info p {
+            margin-bottom: 0.3rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            section {
+                padding: 1.5rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+            #cg{
+                text-align: right;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Muni Charan Laisetty</h1>
+            <p>📍 Chirala, India | 📞 7989378982</p>
+                <a href="mailto:charanmuni19@gmail.com">✉️   charanmuni19@gmail.com</a> | 
+                <a href="https://www.linkedin.com/in/charan-muni-516570364/" target="_blank">🔗 LinkedIn</a>
+            </p>
+            <img class="me" src="/img.jpg" alt="image">
+            <p>
+        </header>
+        
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <h3>Damian, Inc.</h3>
+            <p class="job-title">December 2024 - May 2025</p>
+            <ul>
+                <li>Led a predictive analytics project to assess the likelihood of diabetes in individuals using real-world medical data</li>
+                <li>Collected, cleaned, and analyzed patient datasets; addressed class imbalance by applying techniques like SMOTE, downsampling, and upsampling</li>
+                <li>Developed and trained classification models (logistic regression, decision trees) achieving 94% accuracy on test data</li>
+                <li>Evaluated model performance using precision, recall, F1-score, and AUC to ensure clinical relevance</li>
+                <li>Collaborated cross-functionally and documented the entire ML pipeline for reproducibility and deployment</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Academic Projects</h2>
+            
+            <h3>Faculty and Student Task Management System</h3>
+            <p>Designed a system to analyze student assessments, tasks, and resource allocation. The platform provides digital task tracking for academic activities, improving efficiency and enhancing faculty-student collaboration.</p>
+
+            <h3>ICU Mortality Prediction</h3>
+            <p class="job-title">September 2024 - December 2024</p>
+            <ul>
+                <li>Developed machine learning models predicting ICU mortality using 91,713 patient records and 84 clinical features</li>
+                <li>Achieved 0.91 concordance index and 27% improvement in minority class identification over traditional APACHE scoring systems</li>
+                <li>Applied advanced techniques including SMOTE, SMOTE+Tomek Links, and ADASYN to handle class imbalance</li>
+                <li>Built interpretable models such as Random Forest and Cox Proportional Hazards with tailored imputation and feature selection strategies</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>SQL</li>
+                <li>MongoDB</li>
+                <li>NodeJS</li>
+                <li>Excel</li>
+                <li>Machine Learning</li>
+                <li>Data Analysis</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <h3>St. Ann's College of Engineering &amp; Technology, India</h3>
+            <div class="education-info">
+                <p><strong>Bachelor of Technology</strong> - CSE (Cyber Security)</p>
+                <p> Graduation: August 2025</p>
+                <p><strong id="cg">CGPA</strong> 6.8</p>
+            </div>
+        </section>
+
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Participated in Data Dynamos hackathon event, contributing to the development of a mobile app concept focused on mental wellness tracking</li>
+                <li>Secured 2nd prize in the powerlifting championship at JNTUK university level</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Muni Charan Laisetty. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
